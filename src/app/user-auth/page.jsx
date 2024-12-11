@@ -4,7 +4,7 @@ import { Github } from 'lucide-react'
 import { signIn } from 'next-auth/react';
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { toast } from 'react-toastify';
 import Loader from '../components/Loader';
 
@@ -12,7 +12,9 @@ const page = () => {
     const [isloading, setIsLoading] = useState(false);
     const url = process.env.NEXTAUTH_URL;
 
-
+useEffect(()=>{
+    localStorage.removeItem('hasShownWelcome')
+},[])
     const handleLogin = async (provider) => {
         setIsLoading(true);
         try {
