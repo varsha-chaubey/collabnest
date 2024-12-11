@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CollabNest: Empowering Remote Work and Team Collaboration
+
+## Project Introduction
+
+CollabNest is a comprehensive remote work collaboration hub designed to bring your team closer, no matter where they are. With tools for seamless communication, efficient task management, real-time collaboration, and insightful project analytics, CollabNest transforms the way distributed teams work together. Build, connect, and thrive with a platform that empowers teams to achieve their goals from anywhere.
+
+> "Connect seamlessly, collaborate effortlessly, and celebrate your achievements with ease—no matter where you are. Welcome to COLLABNEST, where remote teams come together to turn ideas into reality. Discover the power of unified teamwork, all from the comfort of your chosen workspace."
+
+---
+
+## Technologies Used
+
+### Frontend
+- **Next.js**: For building a modern, scalable, and highly performant frontend.
+- **ShadCN UI**: To provide a clean and consistent UI framework.
+- **Tailwind CSS**: For designing a responsive and visually appealing user interface.
+
+### Backend
+- **Node.js**: For server-side scripting and building a robust backend.
+- **Express.js**: As a lightweight web framework for routing and middleware.
+- **MongoDB**: To handle data storage and retrieval efficiently.
+
+### Real-Time Communication
+- **Zegocloud API**: For enabling real-time video communication and collaboration.
+
+---
+
+## Key Features
+
+1. **Seamless Communication**: Real-time chat and video collaboration.
+2. **Efficient Task Management**: Organize and track tasks effortlessly with Kanban boards.
+3. **Real-Time Collaboration**: Work on whiteboards, share ideas, and brainstorm with your team.
+4. **Project Analytics**: Gain insights into team performance with detailed analytics and reporting.
+5. **Calendar Integration**: Schedule and manage meetings with ease.
+
+---
 
 ## Getting Started
 
-First, run the development server:
+To learn more about setting up and using CollabNest, refer to the documentation and detailed setup guide.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
